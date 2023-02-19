@@ -29,12 +29,11 @@ df["sex"].value_counts()
 # Task 3:  Find the number of unique values for each column.
 #########################################
 df.nunique()
-
 #########################################
 # Görev 4: pclass değişkeninin unique değerleri bulunuz.
 # Task 4:  Find the unique values of the variable pclass.
 #########################################
-df["pclass"].nunique()
+df["pclass"].unique()
 
 #########################################
 # Görev 5: pclass ve parch değişkenlerinin unique değerlerinin sayısını bulunuz.
